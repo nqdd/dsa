@@ -1,0 +1,17 @@
+{
+  "name": "dsa",
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@babel/preset-env": "^7.28.5",
+    "@biomejs/biome": "2.3.11",
+    "jest": "^30.2.0"
+  }
+}
