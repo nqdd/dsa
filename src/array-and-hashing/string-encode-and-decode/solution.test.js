@@ -14,6 +14,13 @@ describe("Solution - String Encode and Decode", () => {
 		expect(decoded).toEqual(input);
 	});
 
+	test("should encode and decode a list of strings with special characters", () => {
+		const input = ["we", "say", ":", "yes", "!@#$%^&*()"];
+		const encoded = solution.encode(input);
+		const decoded = solution.decode(encoded);
+		expect(decoded).toEqual(input);
+	});
+
 	test("should handle empty strings in the list", () => {
 		const input = [""];
 		const encoded = solution.encode(input);

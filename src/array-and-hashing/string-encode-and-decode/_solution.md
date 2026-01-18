@@ -5,3 +5,7 @@ A solution with O(m) time for each encode() and decode() call and O(m+n) space, 
 # Solution 1
 
 A naive solution would be to use a non-ascii character as a delimiter
+
+# Solution 2
+
+Try to encode and decode the strings using a smart approach based on the lengths of each string. How can you differentiate between the lengths and any numbers that might be present in the strings?
