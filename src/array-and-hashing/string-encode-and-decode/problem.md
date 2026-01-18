@@ -2,7 +2,7 @@
 
 https://neetcode.io/problems/string-encode-and-decode/question
 
-> Design an algorithm to encode a list of strings to a string. The encoded string is then sent over the network and is decoded back to the original list of strings.
+Design an algorithm to encode a list of strings to a string. The encoded string is then sent over the network and is decoded back to the original list of strings.
 
 Machine 1 (sender) has the function:
 
@@ -69,3 +69,15 @@ Constraints:
 - 0 <= strs.length < 100
 - 0 <= strs[i].length < 200
 - strs[i] contains any possible characters out of 256 valid ASCII characters.
+
+# Target
+
+A solution with O(m) time for each encode() and decode() call and O(m+n) space, where m is the sum of lengths of all the strings and n is the number of strings.
+
+# Solution 1
+
+A naive solution would be to use a non-ascii character as a delimiter
+
+# Solution 2
+
+Try to encode and decode the strings using a smart approach based on the lengths of each string. How can you differentiate between the lengths and any numbers that might be present in the strings?
